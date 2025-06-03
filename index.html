@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Henrique Quarshie">
+    <meta name="description" content="Seamless Software Solution Provider, KwasiHenri - Official home. Location: Takoradi-NewAmanful">
+    <meta name="keywords" content="Devren, Devren Software Development, Henry Kwasi Quarshie Website, About Henri Quarshie, Henri's Portfolio Website">
+    <title>Kwasi Henri - Crafting Digital Experiences</title>
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+    <div id="headerdiv">
+        <div class="hcontainer">
+            <nav>
+                <img src="extras/henri-logo.png" class="navlogo">
+                <ul id="sidemenu">
+                    <li><a href="#headerdiv">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertxt">
+                <p>UI/UX Designer, App Developer</p>
+                <h1>Hi! I'm <span>Kwasi Henri</span> <br>From NewAmanful - Takoradi Ghana</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-one">
+                    <img src="extras/mypic1.JPG">
+                    
+                </div>
+                <div class="about-col-two">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm a multifaceted professional with a passion for technology and creativity. As a junior apps developer, web developer, video editor, and graphics designer, I thrive on bringing innovative ideas to life across various digital platforms. Whether it's crafting intuitive mobile applications, designing captivating graphics, or editing engaging videos, I love diving into diverse projects that challenge and inspire me.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div id="skills" class="tab-contents active-tab">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div>
+                    <div id="experience" class="tab-contents">
+                        <ul>
+                            <li><span>2024-Present</span><br>Facilitator, TechRehen Codehub</li>
+                            <li><span>2023-2024</span><br>Designing Web/App Interfaces</li>
+                            <li><span>2021-2022</span><br>IT Assistant, Josmic IT Consult</li>
+                            <li><span>2020-2021</span><br>GSTS Robotics Club, Team Lead</li>
+                            <li><span>2018-2021</span><br>Robot Building and Automation</li>
+                        </ul>
+                    </div>
+                    <div id="education" class="tab-contents">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design Training</li>
+                            <li><span>2022</span><br>STEM Education(SciTech)</li>
+                            <li><span>2021</span><br>High School(WASSCE)</li>
+                            <li><span>2018</span><br>Basic Education(BECE)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fab fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Development of user-friendly and beautiful websites for online availability and connecting with customers with ease.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        Designing and providing user-friendly interfaces taking into consideration, user experiences.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>
+                        Development of Amazing and functioning apps for Android, iOS and Desktop Devices
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-angular"></i>
+                    <h2>Coding Tutoring</h2>
+                    <p>
+                        Ready to learn programming but not knowing where to start from? Join TechRehen CodeHub Academy
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ----------portforlio------------ -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="extras/workimages/appsdev.jpeg">
+                    <div class="layer">
+                        <h3>BoostUP Motivation App</h3>
+                        <p>
+                            Stay focused with your dreams, get motivated each day.
+                            An amazing Android App for all to enjoy
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="extras/workimages/ui-ux-image-one.webp">
+                    <div class="layer">
+                        <h3>SectetMe Messaging</h3>
+                        <p>
+                            Recieve anonymous messages from your audience, Let your friends tell you anonymously what they feel about you
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="extras/workimages/webdesign.jpg">
+                    <div class="layer">
+                        <h3>PortoPi Seafood Website</h3>
+                        <p>
+                            Connect to your customers and let your online presence get known!
+                            PortoPi seafood Catering website
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="extras/workimages/teach-coding.webp">
+                    <div class="layer">
+                        <h3>Facilitator - TechRehen</h3>
+                        <p>
+                            Taught a lot of students to code, program their own
+                            softwares and applications, automate and more
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="more-works-btn linkbtn" href="#">See More</a>
+        </div>
+     </div>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"></i>Contact Me</h1>
+                    <p><i class="fab fa-paper-plane"></i>kwasihenri@gmail.com</p>
+                    <p><i class="fab fa-phone-square-alt"></i>+233596332484</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a class="linkbtn btn2" download href="extras/henri-cv.pdf">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="contact-form" action="#">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="linkbtn btn2" type="submit">SUBMIT</button>
+                    </form>
+                    <span id="msg">
+                        <!-- message sent successfully! -->
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-text">
+            <p>Copyright &copy;2025 | Site Built By <a href="https://devrehen.rf.gd?for=webdev">DevREN</a> SOFTWARE SOLUTIONS</p>
+        </div>
+     </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right="0px";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
